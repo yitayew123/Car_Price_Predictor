@@ -1,0 +1,21 @@
+/* Reset margin and padding for all elements to ensure consistent spacing */
+* {
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Class to set a dark background color */
+.bg-dark {
+     background-color: silver; /* Set background color to a shade of gray */
+}
+
+/* Class for adding top margin of 50 pixels */
+.mt-50 {
+    margin-top: 50px; /* Add 50 pixels of space above the element */
+}
+
+/* ID selector for a canvas element to give it a border */
+#canvas {
+    border: 2px solid black; /* Set a solid black border of 2 pixels around the canvas */
+}
